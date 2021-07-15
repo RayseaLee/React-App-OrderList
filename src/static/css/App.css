@@ -1,0 +1,184 @@
+html, body {
+  background-color: #F4F5F7;
+  height: 100%;
+}
+
+/* 顶部栏 */
+.nav {
+  height: 50px;
+  width: 100%;
+  line-height: 50px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #E8E8E8;
+  background-color: #fff;
+}
+.nav p {
+  margin-left: 10px;
+}
+
+/* 卡片视图区 */
+.card {
+  margin: 10px 12px;
+  padding: 10px;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+/* 卡片视图区的顶部 */
+.card-top {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 卡片视图区的左部输入框 */
+.card-top-left {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  top: 20px;
+  left: 20px
+}
+.card-top-left span {
+  font-size: 12px;
+  margin-right: 8px;
+}
+.card-top-left input{
+  width: auto;
+  border-radius: 4px;
+  border: 1px solid rgb(204, 204, 204);
+}
+/* .card-top-left input:hover {
+  border-radius: 4px;
+  border: 1px solid rgb(170, 170, 170);
+} */
+/* 订单状态输入框 */
+.order_status {
+  position: relative;
+}
+/* 公司名称输入框 */
+.comp_name {
+  position: relative;
+}
+/* 图标字体 */
+.order_status .icon-arrow-down-bold, .icon-search {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  color: rgb(170, 170, 170);
+}
+
+/* 卡片视图区的左部按钮 */
+.card-top-right {
+  top: 20px;
+  right: 20px
+}
+.card-top-right button {
+  border-radius: 4px;
+  padding: 3px 10px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.card-top-right .icon-arrow-down-bold {
+  font-size: 10px;
+}
+
+/* 更多、重置、查询按钮 */
+#more, #reset {
+  background-color: #fff;
+  border: 1px solid rgb(204, 204, 204);
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+#more {
+  color: rgb(91, 187, 203);
+}
+#reset {
+  color: #000;
+}
+#query {
+  color: #fff;
+  background-color: rgb(91, 187, 203);
+  border: 1px solid rgb(91, 187, 203);
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+#more:hover, #reset:hover {
+  color: rgb(91, 187, 203);
+  border: 1px solid rgb(91, 187, 203);
+}
+#more:active, #reset:active {
+  color: rgb(69, 146, 160);
+  border: 1px solid rgb(69, 146, 160);
+}
+#query:hover{
+  color: #fff;
+  background-color: rgb(136, 217, 231);
+}
+#query:active{
+  background-color: rgb(78, 161, 175);
+}
+
+.opr {
+  font-size: 14px;
+  color:rgb(91, 187, 203);
+  margin: 40px 10px 20px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+/* 添加、删除按钮 */
+#add, #delete {
+  cursor: pointer;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+}
+#add:active, #delete:active {
+  color: rgb(69, 146, 160);
+}
+
+#delete {
+  margin-left: 30px;
+}
+#add .iconfont, #delete .iconfont {
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+
+/* table {
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+.icon-select-bold {
+  width: 12px;
+  height: 12px;
+  color: rgb(170, 170, 170);
+}
+
+th {
+  text-align: left;
+  background-color: rgb(245,245,245);
+}
+th:last-child, tr td:last-child {
+  text-align: right;
+}
+
+td, th {
+  padding: 10px;
+  border: 1px solid rgb(204, 204, 204);
+}
+
+tbody tr:hover {
+  background-color: rgb(242,245,252);
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+  margin: auto;
+  cursor: pointer;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.checkbox .iconfont {
+  vertical-align: 0.15em;
+} */
