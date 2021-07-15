@@ -1,6 +1,6 @@
 import './static/css/App.css';
-import { CardTop } from './components/CardTop/CardTop.js'
-import { OrderTable } from './components/OrderTable/OrderTable.js'
+import { CardTop } from './components/CardTop/CardTop'
+import { OrderTable } from './components/OrderTable/OrderTable'
 import React from 'react';
 
 class App extends React.Component {
